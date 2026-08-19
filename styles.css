@@ -54,7 +54,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color: cadetblue;
-    padding: 180px;
+    padding: 140px;
 }
 
 .blue-button{
@@ -101,5 +101,28 @@ body{
     text-align: center;
     max-width: 150px;
     margin-top: 16px;
-    
+    margin-bottom: 100px;
+
   }
+.quote{
+    background-color: #E5E7EB;
+    display:flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+.main-quote{
+    font-size: 36px;
+    font-weight: 300;
+    margin-left: 260px;
+    margin-right: 160px;
+    color: #1F2937;
+    font-style: italic;
+    align-self: center;
+
+}
+.author{
+    align-self: flex-end;
+    margin-right: 160px;
+}
