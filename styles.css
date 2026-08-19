@@ -21,8 +21,53 @@ ul{
 
 a{
     text-decoration: none;
-    color: grey;
+    color: #D3D3D3;
 }
 body{
     margin:0px;
+}
+.hero{
+  background-color: #1F2937;  
+  display: flex;
+  align-items: center;
+  height: 500px;
+  justify-content: space-between;
+}
+.hero-main-text{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+.hero-subtext{
+    font-size: 18px;
+    color: #E5E7EB;
+    max-width: 300px;
+}
+.left-side{
+    margin-left: 180px;
+}
+.right-side{
+    color: #E5E7EB;
+    margin-right: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cadetblue;
+    padding: 180px;
+}
+
+.blue-button{
+  display: inline-block;
+  background-color: #0066ff; /* Vibrant primary blue */
+  color: #ffffff;            /* Crisp white text */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 8px 28px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 102, 255, 0.25);
+  transition: all 0.2s ease;
+  text-decoration: none;
 }
